@@ -1,0 +1,20 @@
+/* Minimal styles for the Poker Profiles app */
+:root{--bg:#f7f7fb;--card:#fff;--accent:#2b6cb0;--muted:#6b7280}
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;line-height:1.4;margin:0;background:var(--bg);color:#111}
+.site-header{background:var(--card);padding:1rem 1.25rem;border-bottom:1px solid #e6e9ef;display:flex;align-items:center;justify-content:space-between}
+.container{max-width:900px;margin:2rem auto;padding:1rem}
+.links{margin-top:1rem}
+.btn{display:inline-block;padding:.5rem .75rem;background:var(--accent);color:#fff;text-decoration:none;border-radius:6px}
+.btn:hover{opacity:.95}
+.link-small{color:var(--accent);text-decoration:none;font-size:.95rem}
+input,textarea{display:block;width:100%;padding:.5rem;border:1px solid #d1d5db;border-radius:6px;margin-top:.25rem}
+label{display:block;margin-bottom:1rem;font-weight:600;color:var(--muted)}
+.form-actions{display:flex;gap:.5rem}
+.btn-muted{background:#e6e9ef;color:#111}
+.player-card{background:var(--card);padding:1rem;border-radius:8px;border:1px solid #e6e9ef;margin-bottom:.75rem;display:flex;justify-content:space-between;align-items:center}
+.player-meta{max-width:70%}
+.player-actions button{margin-left:.5rem}
+.small-muted{color:var(--muted);font-size:.95rem}
+
+@media(min-width:640px){.container{padding:2rem}}
